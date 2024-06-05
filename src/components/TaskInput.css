@@ -1,0 +1,91 @@
+h1{
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 12px;
+    margin-right: 10px;
+    border: none;
+    background-color:#61e4de;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 10px;
+    width: 450px;
+  
+  }
+  
+  #markBtn,#delBtn,#editBtn {
+    padding: 5px;
+    margin-right: 20px;
+    background-color:  #e6d010;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    color: beige;
+  }
+  #markBtn{
+    margin-left: 20px;
+    background-color: green;
+    padding: 6px;
+  }
+  #editBtn{
+    background-color: #e6d010;
+    padding: 4px;
+  }
+  #delBtn{
+    background-color: red;
+  }
+  
+  #btn{
+    display: flex;
+    flex: 1;
+  }
+  #list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li{
+    border: 2px solid white;
+    padding: 10px;
+  }
+  #btnAdd {
+    background-color: rgb(6, 14, 168);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  #btnAdd:hover{
+    background-color: #0911f4;
+  }
+  button:hover{
+    background-color: #0b6f6a;
+  }
+  
+  ul {
+    padding: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  
+  
+  }
+  
